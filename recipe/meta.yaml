@@ -1,4 +1,4 @@
-{% set version = "20161026" %}
+{% set version = "20210214" %}
 {% set name = "sagemath-db-graphs" %}
 
 package:
@@ -7,11 +7,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.bz2
-  url: http://files.sagemath.org/spkg/upstream/graphs/graphs-{{ version }}.tar.bz2
+  url: http://users.ox.ac.uk/~coml0531/sage/graphs-{{ version }}.tar.bz2
   sha256: 622de9ad45106177db4f61334c2dde88ade560ce087d3b37bc2edae4292d4b28
 
 build:
-  number: 1
+  number: 0
   noarch: generic
 
 test:
@@ -20,7 +20,7 @@ test:
 
 about:
   home: https://github.com/sagemath/sage
-  license: GPLv2+
+  license: GPL-2.0-or-later
   summary: |
     A database of graphs. Created by Emily Kirkman based on the work of Jason
     Grout. Since April 2012 it also contains the ISGCI graph database.
