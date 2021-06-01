@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.bz2
   url: http://users.ox.ac.uk/~coml0531/sage/graphs-{{ version }}.tar.bz2
-  sha256: 622de9ad45106177db4f61334c2dde88ade560ce087d3b37bc2edae4292d4b28
+  sha256: 07237c0d9853611505c389fd7bb92500c8743f5631babb4d0f45dfd8332f3741
 
 build:
   number: 0
